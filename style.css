@@ -1,0 +1,67 @@
+body {
+    background-color: #eeff94;
+}
+
+.AccBtnStyle {
+    background-color: rgb(25, 211, 23);
+    /*color: #c7e3ba;*/
+    border: 1px rgb(20, 147, 18);
+    font-size: 19px;
+    float: none;
+    margin-right: 90px !important;
+    width: 90px;
+    height: 67px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #528009;
+}
+
+
+
+#midle button {
+    height: 45px;
+    width: 45px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 100px;
+    transition: 0.2s;
+}
+
+/*pressed*/
+#midle button.pr {
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+}
+
+#midle button.pr:hover {
+    background: rgb(53, 167, 110);
+}
+
+#midle button.pr:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+/*unpressed*/
+#midle button.unpr {
+    background: rgb(226, 90, 83);
+    box-shadow: 0 -3px rgb(200, 80, 73) inset;
+}
+
+#midle button.unpr:hover {
+    background: rgb(200, 80, 73);
+}
+
+#midle button.unpr:active {
+    background: rgb(182, 73, 66);
+    box-shadow: 0 3px rgb(182, 73, 66) inset;
+}
+
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
