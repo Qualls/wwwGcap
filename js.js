@@ -2,6 +2,7 @@
 var level = 1;
 var elementsCount = level;
 var gamePosition = "#midle";
+var timerId = "#timer";
 var levelSec = 5;//10
 var levelTime;//calculated
 var interval;//fix
@@ -81,7 +82,7 @@ function createTimer(level) {
     interval = setInterval(function () {
         val -= delay;
         var timerValue = Math.round(val / 1000);
-        $("#timer").text(timerValue);
+        $(timerId).text(timerValue);
         if (timerValue == 0) {
             clearInterval(interval);
             if (loses >= ll) {
